@@ -1,0 +1,23 @@
+input [type=text] {
+widows: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+background-color: blue;
+color: antiquewhite;
+}
+table, th, td {
+    border: 20px solid black;
+    border-collapse: collapse;
+
+    
+}
+
+th, td {
+padding: 15px;
+text-align: center;
+}
+
+/* td {
+    text-align: center;
+} */

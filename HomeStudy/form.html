@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Tutorial</title>
+</head>
+<body>
+    
+    <h3>TEST PAGE</h3> 
+
+    <nav>
+        <ul>
+            <li> <a href = "index.html"> Home </a></li>
+            <!-- <li> <a href = "signup.html">SignUp </a></li>
+            <li> <a href = "login.html">Login </a> </li>
+            <li> <a href = "post.html">Post</a></li>
+            <li> <a href = "add_product.html">Add Product</a></li> -->
+            <li> <a href = "form.html">Home form</a></li>
+        </ul>
+    <form action="/form" method="POST" enctype="application/x-www-form-urlencoded">
+        
+    
+            Browser: <br>
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist> <br> <br>
+
+        gender: <br>
+        <input type="radio" name="gender" value="female" > Female<br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="other"> Other <br><br>
+
+        
+            Select your favorite color: <br>
+            <input type="color" name="favcolor"> <br><br>
+
+        On the sale of 1-10 rate your programming skills: <br>
+            <input type="radio" name="scale" > 1 <br>
+            <input type="radio" name="scale" > 2 <br>
+            <input type="radio" name="scale" > 3 <br>
+            <input type="radio" name="scale" > 4 <br>
+            <input type="radio" name="scale" > 5 <br>
+            <input type="radio" name="scale" > 6 <br>
+            <input type="radio" name="scale" > 7 <br>
+            <input type="radio" name="scale" > 8 <br>
+            <input type="radio" name="scale" > 9 <br>
+            <input type="radio" name="scale" > 10 <br><br>
+
+            Search Google:
+  <input type="search" name="googlesearch"> <br><br>
+  Telephone:
+  <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br><br>
+  Select a time:
+  <input type="time" name="usr_time">
+
+    </form> 
+</body>
+</html>
